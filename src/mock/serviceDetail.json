@@ -1,0 +1,90 @@
+{
+  "ret_code": 200,
+  "ret_msg": "success",
+  "unit_price": {
+    "cpu": 20,
+    "memory": 30,
+    "storage_block": 50,
+    "storage_nfs": 40
+  },
+  "link": [
+    {
+      "rel": "self",
+      "href": "api/v1/instances/91a62eb7-09bc-480f-a946-c08cf95fdb5a/service&year=2017&month=7&limit=20&offset=0&sort=instance_name"
+    },
+    {
+      "rel": "next",
+      "href": "api/v1/instances/91a62eb7-09bc-480f-a946-c08cf95fdb5a/service&year=2017&month=7&limit=20&offset=20&sort=instance_name"
+    }
+  ],
+  "history_cost": {
+    "accumulate_cost": {
+      "total_cpu": "0hour/1core",
+      "total_memory": "0hour/1GB",
+      "total_storage": "0hour/1GB"
+    },
+    "month_cost": {
+      "total_cpu": "0hour/1core",
+      "total_memory": "0hour/1GB",
+      "total_storage": "0hour/1GB"
+    }
+  },
+  "modules": [
+    {
+      "instance_id": "8dcfe33e-9e6b-11e7-b83c-ecf4bbe2f145",
+      "instance_name": "spark-master-1",
+      "ip": "10.0.0.14",
+      "status": "Running",
+      "start_time": "2017-10-11 10:44:12",
+      "end_time": "0001-01-01 00:00:00",
+      "run_time": 40,
+      "cpu": 2,
+      "memory": 4,
+      "storage": 7,
+      "storage_type": "rbd",
+      "storage_mode": "exclusive"
+    },
+    {
+      "instance_id": "8dcfe33e-9e6b-11e7-b83c-ecf4bbe2f147",
+      "instance_name": "spark-worker-0-123",
+      "ip": "10.0.0.16",
+      "status": "Running",
+      "start_time": "2017-10-11 10:44:12",
+      "end_time": "0001-01-01 00:00:00",
+      "run_time": 10,
+      "cpu": 4,
+      "memory": 2,
+      "storage": 7,
+      "storage_type": "rbd",
+      "storage_mode": "exclusive"
+    },
+    {
+      "instance_id": "8dcfe33e-9e6b-11e7-b83c-ecf4bbe2f146",
+      "instance_name": "spark-worker-1-123",
+      "ip": "10.0.0.15",
+      "status": "Running",
+      "start_time": "2017-10-11 10:44:12",
+      "end_time": "0001-01-01 00:00:00",
+      "run_time": 10,
+      "cpu": 4,
+      "memory": 2,
+      "storage": 7,
+      "storage_type": "rbd",
+      "storage_mode": "exclusive"
+    },
+    {
+      "instance_id": "8dcfe33e-9e6b-11e7-b83c-ecf4bbe2f148",
+      "instance_name": "spark-worker-2-123",
+      "ip": "10.0.0.17",
+      "status": "Running",
+      "start_time": "2017-10-11 10:44:12",
+      "end_time": "0001-01-01 00:00:00",
+      "run_time": 10,
+      "cpu": 4,
+      "memory": 2,
+      "storage": 7,
+      "storage_type": "rbd",
+      "storage_mode": "exclusive"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ret_code": 201,
+  "ret_msg": "Success",
+  "user": "admin",
+  "bucket_name": "bucket_name",
+  "access_key": "access_key",
+  "secret_key": "secret_key",
+  "url": "https://www.baidu.com/"
+}

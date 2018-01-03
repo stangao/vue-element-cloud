@@ -1,0 +1,22 @@
+{
+  "ret_code": 200,
+  "ret_msg": "success",
+  "cluster_type": [
+    "kafka",
+    "spark"
+  ],
+  "billing_mode": [
+    {
+      "label": "小时",
+      "value": "hour"
+    },
+    {
+      "label": "分钟",
+      "value": "minute"
+    },
+    {
+      "label": "天",
+      "value": "day"
+    }
+  ]
+}

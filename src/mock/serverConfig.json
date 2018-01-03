@@ -1,0 +1,126 @@
+{
+  "ret_code": 200,
+  "ret_msg": "success",
+  "services_for_buy": {
+    "Allxio": [
+      {
+        "service_base_uuid": "d1414f2c-9551-48de-b5a1-c9baf15166ae",
+        "service_name": "Allxio",
+        "version": "1.0"
+      },
+      {
+        "service_base_uuid": "1ca34bf2-08df-4d49-86f3-97aa79d942ec",
+        "service_name": "Allxio",
+        "version": "2.0"
+      }
+    ],
+    "Flink": [
+      {
+        "service_base_uuid": "f5fb8975-8dc2-49b4-a607-f916d92e9dca",
+        "service_name": "Flink",
+        "version": "2.0"
+      },
+      {
+        "service_base_uuid": "58c02b8d-bfb1-4f2c-bc01-895e88a38627",
+        "service_name": "Flink",
+        "version": "1.0"
+      }
+    ],
+    "Kafka": [
+      {
+        "service_base_uuid": "3da300ba-ad21-484b-91d2-42ec6cd05701",
+        "service_name": "Kafka",
+        "version": "1.0",
+        "associated": [
+          {
+            "service_base_uuid": "1c2f3c43-cfe2-4c00-b356-c8ccd67e0890",
+            "service_name": "zookeeper",
+            "version": "3.4.10"
+          },{
+            "service_base_uuid": "1c2f3c43-cfe2-4c00-b356-c8ccd67e1111",
+            "service_name": "zookeeper2",
+            "version": "3.4.10"
+          },{
+            "service_base_uuid": "1c2f3c43-cfe2-4c00-b356-c8ccd67e2222",
+            "service_name": "zookeeper3",
+            "version": "3.4.10"
+          }
+        ]
+      },
+      {
+        "service_base_uuid": "27261fd0-a823-443f-8b8c-738d2650fa8c",
+        "service_name": "Kafka",
+        "version": "2.0",
+        "associated": [
+          {
+            "service_base_uuid": "1c2f3c43-cfe2-4c00-b356-c8ccd67e06fe",
+            "service_name": "zookeeper",
+            "version": "3.4.10"
+          },{
+            "service_base_uuid": "acc00364-e187-45ca-a67b-88786fe037a2",
+            "service_name": "Zookeeper",
+            "version": "1.0"
+          },{
+            "service_base_uuid": "58c02b8d-bfb1-4f2c-bc01-895e88a38627",
+            "service_name": "Flink",
+            "version": "1.0"
+          }
+        ]
+      }
+    ],
+    "Spark": [
+      {
+        "service_base_uuid": "8e60b323-d93c-4b35-85dd-6548db0ae5ac",
+        "service_name": "Spark",
+        "version": "1.0"
+      },
+      {
+        "service_base_uuid": "0227395c-acc4-406b-a0c5-97a02c2ca5a5",
+        "service_name": "Spark",
+        "version": "2.0"
+      }
+    ],
+    "Zookeeper": [
+      {
+        "service_base_uuid": "acc00364-e187-45ca-a67b-88786fe037a2",
+        "service_name": "Zookeeper",
+        "version": "1.0"
+      },
+      {
+        "service_base_uuid": "dbb62cc5-9041-405c-9c58-4585061d2ae7",
+        "service_name": "Zookeeper",
+        "version": "2.0"
+      }
+    ],
+    "elasticsearch": [
+      {
+        "service_base_uuid": "7616b719-3c7e-474f-9f89-e38627a571ca",
+        "service_name": "elasticsearch",
+        "version": "5.0"
+      }
+    ],
+    "ignite": [
+      {
+        "service_base_uuid": "f7e9ccd9-6ec3-4f92-a08a-8e4d5aa935c5",
+        "service_name": "ignite",
+        "version": "2.2.0"
+      }
+    ],
+    "zookeeper": [
+      {
+        "service_base_uuid": "1c2f3c43-cfe2-4c00-b356-c8ccd67e06fe",
+        "service_name": "zookeeper",
+        "version": "3.4.10"
+      }
+    ]
+  },
+  "services_for_share": [
+    {
+      "project_id": "f18214e1-7b95-40d3-9596-54a49b33bfba",
+      "project_name": "czq-project",
+      "service_base_uuid": "0227395c-acc4-406b-a0c5-97a02c2ca5a5",
+      "service_name": "Spark",
+      "version": "2.0"
+    }
+  ]
+}

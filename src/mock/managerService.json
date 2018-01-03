@@ -1,0 +1,16 @@
+{
+  "ret_code": 200,
+  "ret_msg": "Success",
+  "project_id": "f18214e1-7b95-40d3-9596-54a49b33bfba",
+  "project_name": "cyproject2",
+  "services": [
+    {
+      "service_id": "427abdf7-bb8e-466f-9e7d-44639c610a4e",
+      "service_name": "Kafka"
+    },
+    {
+      "service_id": "28f1393b-e47e-42c7-9208-390443f2990b",
+      "service_name": "Spark"
+    }
+  ]
+}

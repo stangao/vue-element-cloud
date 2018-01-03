@@ -1,0 +1,45 @@
+{
+  "ret_code": 200,
+  "ret_msg": "success",
+  "service_addrs": [
+    {
+      "project_id": "f18214e1-7b95-40d3-9596-54a49b33bfba",
+      "project_name": "czq-project",
+      "service_uuid": "91a62eb7-09bc-480f-a946-c08cf95fdb5a",
+      "service_base_uuid": "0227395c-acc4-406b-a0c5-97a02c2ca5a5",
+      "service_name": "Spark",
+      "addr_array": [
+        {
+          "addr": "spark-master-1.spark.czq-project.svc",
+          "ports": "master/7077/TCP"
+        },
+        {
+          "addr": "spark-worker-1-123.spark.czq-project.svc",
+          "ports": "workerport/7078/TCP,workerwebport/11008/TCP"
+        },
+        {
+          "addr": "spark-worker-0-123.spark.czq-project.svc",
+          "ports": "workerport/7078/TCP,workerwebport/11008/TCP"
+        },
+        {
+          "addr": "spark-worker-2-123.spark.czq-project.svc",
+          "ports": "workerport/7078/TCP,workerwebport/11008/TCP"
+        }
+      ]
+    },
+    {
+      "project_id": "f18214e1-7b95-40d3-9596-54a49b33bfba",
+      "project_name": "czq-project",
+      "service_uuid": "39ecb54d-4a5c-4659-a111-65084da841df",
+      "service_base_uuid": "1c2f3c43-cfe2-4c00-b356-c8ccd67e06fe",
+      "service_name": "zookeeper"
+    },
+    {
+      "project_id": "f18214e1-7b95-40d3-9596-54a49b33bfba",
+      "project_name": "czq-project",
+      "service_uuid": "ea108b37-3305-48ee-a1d6-79c61468c3be",
+      "service_base_uuid": "27261fd0-a823-443f-8b8c-738d2650fa8c",
+      "service_name": "Kafka"
+    }
+  ]
+}

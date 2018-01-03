@@ -1,0 +1,8 @@
+{
+  "ret_code": 200,
+  "ret_msg": "Success",
+  "storage_name": "s3",
+  "unit_price": 0.10,
+  "unit_type": "GB/小时",
+  "free_value": 5
+}

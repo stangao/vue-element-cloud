@@ -1,0 +1,148 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+// img,input,button { border:none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+// ul, ol { list-style:none; }
+// input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+// select, input { vertical-align:middle;}
+// select, input, textarea { font-size:12px; margin:0; }
+// textarea { resize:none; } /*防止拖动*/
+// img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+// table { border-collapse:collapse; }
+// body {
+//     font:12px/150% Arial,Verdana,"\5b8b\4f53";
+//     color:#666;
+//     background:#fff
+// }
+// .clearfix:before,.clearfix:after {  /*清楚浮动*/
+//     content:"";
+//     display:table;
+// }
+// .clearfix:after{clear:both;}
+// .clearfix{
+//     *zoom:1;/*IE/7/6*/
+// }
+// a {color:#666; text-decoration:none; }
+// a:hover{color:#C81623;}
+// h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+// s,i,em{font-style:normal;text-decoration:none;}
+// .col-red{color: #C81623!important;}
+//
+// /*公共类*/
+// .w {  /*版心 提取 */
+//     width: 1210px;margin:0 auto;
+// }
+// .fl {
+//     float:left
+// }
+// .fr {
+//     float:right
+// }
+// .al {
+//     text-align:left
+// }
+// .ac {
+//     text-align:center
+// }
+// .ar {
+//     text-align:right
+// }
+// .hide {
+//     display:none
+// }
+// .font12{ font-size: 12px;}
+// .font14{ font-size: 14px;}
+// .font16{ font-size: 16px;}
+a {color:@text-deep; text-decoration:none; }
+ul li{
+  border: none;
+}
+/*公共部分*/
+.title{
+  text-align: left;
+}
+.secondTitle{
+  text-align: left;
+}
+/*头部导航开始*/
+.crumbs{
+  margin: 30px 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+  i{
+    padding-right: 4px;
+  }
+}
+/*公用表头样式*/
+.plugins-tips{
+  background:#eef1f6;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+/*分页样式*/
+.pagination-container{
+  text-align: right;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+/*公用fieldset样式*/
+
+fieldset {
+  padding-left: 40px;
+  height: 100%;
+  border: 1px solid #e1e7fa !important;
+  background: #fbfbfc;
+  border-width: 1px;
+  legend{
+    padding: 0 6px;
+  }
+}
+
+/*公共提示样式*/
+.common-tips{
+  padding-left: 10px;
+  color: @text-middle;
+  font-size: 12px;
+}
+/*公用表头样式*/
+.common-title{
+  padding: 10px 0 20px;
+  color: @font-color;
+  font-weight: bold;
+}
+/*公用表格底部文本*/
+.common-p{
+  padding: 10px 0;
+}
+/*公用select选项*/
+.small-select{
+  width: 80px;
+}
+/*公用弹出框文本样式*/
+.commom-listP{
+  margin-bottom: 20px;
+}
+/*公用页面架构*/
+.layout{
+  min-height: 100%;
+  padding-left: 180px;
+  .pageContent{
+    padding: 60px 10px 10px;
+    font-size: 14px;
+  }
+}
+/*公用element select 下拉*/
+.el-select-dropdown__item{
+  line-height: 36px !important;
+  padding-left:10px !important;
+}
+/*尾部部导航开始*/
+.common-bottom{
+  padding: 20px;
+  text-align: center;
+}

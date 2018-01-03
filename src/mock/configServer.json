@@ -1,0 +1,184 @@
+{
+  "project_id": "a18865f5-1e15-4c97-9bdc-38357930fa07",
+  "project_name": "gnb-test-119-5852",
+  "ret_code": 200,
+  "ret_msg": "success",
+  "env": "test",
+  "billing_mode": "minute",
+  "unit_price": {
+    "cpu": 2,
+    "memory": 3,
+    "storage_block": 5,
+    "storage_nfs": 4
+  },
+  "configs": [
+    {
+      "service_base_uuid": "27261fd0-a823-443f-8b8c-738d2650fa8c",
+      "service_name": "Kafka",
+      "version": "2.0",
+      "deploy_method": 2,
+      "storage_type": "exclusive",
+      "modules": {
+        "kafka": [
+          {
+            "name": "replicas",
+            "value": 3,
+            "value_range": "1,5",
+            "value_unit": "number",
+            "value_interval": 1,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          },
+          {
+            "name": "cpu",
+            "value": 4,
+            "value_range": "1,16",
+            "value_unit": "core",
+            "value_interval": 1,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          },
+          {
+            "name": "memory",
+            "value": 4,
+            "value_range": "1,16",
+            "value_unit": "Gi",
+            "value_interval": 2,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          },
+          {
+            "name": "storage",
+            "value": 4,
+            "value_range": "1,16",
+            "value_unit": "Gi",
+            "value_interval": 10,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          }
+        ]
+      }
+    },
+    {
+      "service_base_uuid": "f7e9ccd9-6ec3-4f92-a08a-8e4d5aa935c5",
+      "service_name": "ignite",
+      "version": "2.2.0",
+      "deploy_method": 2,
+      "storage_type": "shared",
+      "storage": {
+        "name": "storage",
+        "value": 20,
+        "value_range": "1,30",
+        "value_unit": "Gi",
+        "value_interval": 2,
+        "display_box": "dropdown",
+        "describe": "storage configs"
+      },
+      "modules": {
+        "ignite": [
+          {
+            "name": "replicas",
+            "value": 4,
+            "value_range": "1,16",
+            "value_unit": "core",
+            "value_interval": 2,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          },
+          {
+            "name": "cpu",
+            "value": 8,
+            "value_range": "1,16",
+            "value_unit": "Gi",
+            "value_interval": 2,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          },
+          {
+            "name": "memory",
+            "value": 20,
+            "value_range": "1,30",
+            "value_unit": "Gi",
+            "value_interval": 2,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          }
+        ]
+      }
+    },
+    {
+      "service_base_uuid": "1c2f3c43-cfe2-4c00-b356-c8ccd67e06fe",
+      "service_name": "zookeeper",
+      "version": "3.4.10",
+      "deploy_method": 2,
+      "storage_type": "shared",
+      "storage": {
+        "name": "storage",
+        "value": 20,
+        "value_range": "1,30",
+        "value_unit": "Gi",
+        "value_interval": 2,
+        "display_box": "dropdown",
+        "describe": "storage configs"
+      },
+      "modules": {
+        "zookeeper": [
+          {
+            "name": "replicas",
+            "value": 1,
+            "value_range": "1,5",
+            "value_unit": "number",
+            "value_interval": 2,
+            "display_box": "dropdown",
+            "describe": "replicas configs"
+          },
+          {
+            "name": "cpu",
+            "value": 2,
+            "value_range": "1,16",
+            "value_unit": "core",
+            "value_interval": 2,
+            "display_box": "dropdown",
+            "describe": "cpu configs"
+          },
+          {
+            "name": "memory",
+            "value": 4,
+            "value_range": "1,16",
+            "value_unit": "Gi",
+            "value_interval": 2,
+            "display_box": "dropdown",
+            "describe": "memory configs"
+          }
+        ]
+      }
+    }
+  ],
+  "shared_services": [
+    {
+      "project_id": "f18214e1-7b95-40d3-9596-54a49b33bfba",
+      "project_name": "czq-project",
+      "service_uuid": "91a62eb7-09bc-480f-a946-c08cf95fdb5a",
+      "service_base_uuid": "0227395c-acc4-406b-a0c5-97a02c2ca5a5",
+      "service_name": "Spark",
+      "addr_array": [
+        {
+          "addr": "spark-master-1.spark.czq-project.svc",
+          "ports": "master/7077/TCP"
+        },
+        {
+          "addr": "spark-worker-1-123.spark.czq-project.svc",
+          "ports": "workerport/7078/TCP,workerwebport/11008/TCP"
+        },
+        {
+          "addr": "spark-worker-0-123.spark.czq-project.svc",
+          "ports": "workerport/7078/TCP,workerwebport/11008/TCP"
+        },
+        {
+          "addr": "spark-worker-2-123.spark.czq-project.svc",
+          "ports": "workerport/7078/TCP,workerwebport/11008/TCP"
+        }
+      ]
+    }
+  ]
+}

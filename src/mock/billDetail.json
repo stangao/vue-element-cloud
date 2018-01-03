@@ -1,0 +1,40 @@
+{
+  "ret_code": 200,
+  "ret_msg": "success",
+  "object": {
+    "project_uuid": "f18214e1-7b95-40d3-9596-54a49b33open",
+    "sum_billing": 0,
+    "svc_billing": [
+      {
+        "service_name": "Kafka",
+        "create_time": "2017-10-13 19:17:23 +0800 CST",
+        "billing": 0
+      },
+      {
+        "service_name": "Spark",
+        "create_time": "2017-10-13 19:17:23 +0800 CST",
+        "billing": 0
+      },
+      {
+        "service_name": "Kafka",
+        "create_time": "2017-10-13 19:17:23 +0800 CST",
+        "billing": 0
+      },
+      {
+        "service_name": "Alluxio",
+        "create_time": "2017-10-13 19:17:23 +0800 CST",
+        "billing": 0
+      },
+      {
+        "service_name": "Rabbitmq",
+        "create_time": "2017-10-13 19:17:23 +0800 CST",
+        "billing": 0
+      },
+      {
+        "service_name": "Mysql-single",
+        "create_time": "2017-10-13 19:17:23 +0800 CST",
+        "billing": 0
+      }
+    ]
+  }
+}

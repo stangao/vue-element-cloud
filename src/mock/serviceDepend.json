@@ -1,0 +1,58 @@
+{
+  "ret_code": 200,
+  "ret_msg": "success",
+  "current_project": [
+    {
+      "service_uuid": "5cfd6534-3d3e-41a3-ae33-7d3cbd4097a4",
+      "service_name": "Kafka"
+    },
+    {
+      "service_uuid": "0226a074-8240-4e16-98f4-cd6c4f4b6220",
+      "service_name": "Kafka"
+    },
+    {
+      "service_uuid": "39ecb54d-4a5c-4659-a111-65084da841df",
+      "service_name": "zookeeper",
+      "service_addr": "zk-0.zk:2181"
+    },
+    {
+      "service_uuid": "c1adb565-40a7-4728-935e-34ae0232b6e8",
+      "service_name": "Kafka"
+    },
+    {
+      "service_uuid": "c6af399b-5b41-4b60-8c36-9a5f86bf8817",
+      "service_name": "ignite"
+    }
+  ],
+  "shared_services": [
+   {
+     "project_id": "222",
+     "project_name": "project_name",
+     "service_uuid": "1231",
+     "service_name": "zookeeper",
+     "service_addr": "zookeeper.test.svc:5443"
+   },
+   {
+     "project_id": "222",
+     "project_name": "myproject",
+     "service_uuid": "1231",
+     "service_name": "alluxio",
+     "service_addr": "alluxio.test.svc:30024"
+   },
+   {
+     "project_id": "333",
+     "project_name": "myproject",
+     "service_uuid": "1231",
+     "service_name": "alluxio",
+     "service_addr": "alluxio.test.svc:30024"
+   },
+   {
+     "project_id": "444",
+     "project_name": "myproject",
+     "service_uuid": "1231",
+     "service_name": "alluxio",
+     "service_addr": "alluxio.test.svc:30024"
+   }
+
+ ]
+}

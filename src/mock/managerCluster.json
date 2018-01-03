@@ -1,0 +1,31 @@
+
+{
+  "ret_code": 200,
+  "ret_msg": "success",
+  "projects": [
+    {
+      "project_id": "f18214e1-7b95-40d3-9596-54a49b33bfba",
+      "project_name": "czq-project",
+      "cluster_type": "kafka",
+      "billing_mode": "hour",
+      "create_time": "2017-09-21T13:45:16Z",
+      "status": "created"
+    },
+    {
+      "project_id": "67d3af1f-160e-4e5d-b91b-4860474b6a4c",
+      "project_name": "ayproject2",
+      "cluster_type": "kafka3-4",
+      "billing_mode": "second",
+      "create_time": "2017-09-21T13:43:28Z",
+      "status": "created"
+    },
+    {
+      "project_id": "0d9468a9-9e11-4bfa-8fc4-ff7112d35da8",
+      "project_name": "ayproject2",
+      "cluster_type": "kafka",
+      "billing_mode": "hour",
+      "create_time": "2017-09-21T13:59:03Z",
+      "status": "created"
+    }
+  ]
+}

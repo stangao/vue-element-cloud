@@ -1,0 +1,26 @@
+{
+  "job_plan_name": "spark-job-1",
+  "ret_code": 200,
+  "ret_msg": "success",
+  "shell_scripts": "echo aaaccddd",
+  "log_historys": [
+    {
+      "start_time": "2017-11-16 15:10:02",
+      "end_time": "2017-11-16 15:10:02",
+      "logs": [
+        {
+          "instance_name": "spark-worker-mj2-1",
+          "log": "aaaccddd\n"
+        },
+        {
+          "instance_name": "spark-worker-mj2-0",
+          "log": "aaaccddd\n"
+        },
+        {
+          "instance_name": "spark-worker-mj2-2",
+          "log": "aaaccddd\n"
+        }
+      ]
+    }
+  ]
+}
