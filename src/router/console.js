@@ -1,5 +1,5 @@
 /**
- * Created by 军标 on 2017-9-11.
+ * Created by 乃波 on 2017-9-11.
  */
 import WebShell from '../pages/console/WebShell.vue'
 import WorkBench from '../pages/console/WorkBench.vue'

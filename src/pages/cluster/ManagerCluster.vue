@@ -1,4 +1,4 @@
-/** * Created by 军标 on 2017-9-11 */
+/** * Created by 乃波 on 2017-9-11 */
 <template>
 		<section class="pageContent">
 			<div v-title>{{title}}</div>

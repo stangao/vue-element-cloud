@@ -1,5 +1,5 @@
 /**
- * Created by 军标 on 2017-9-11.
+ * Created by 乃波 on 2017-9-11.
  */
 import BuyService from '../pages/service/BuyService.vue'
 import ConfigService from '../pages/service/ConfigService.vue'

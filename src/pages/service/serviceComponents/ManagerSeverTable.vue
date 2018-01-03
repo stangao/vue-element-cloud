@@ -1,4 +1,4 @@
-/** * Created by 军标 on 2017-9-11. */
+/** * Created by 乃波 on 2017-9-11. */
 <template>
 	<div class="serverList">
 		<el-table :data="list" border fit highlight-current-row style="width: 100%">
